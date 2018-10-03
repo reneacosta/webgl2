@@ -1,0 +1,18 @@
+{
+  "name": "webgl2-ex",
+  "version": "1.0.0",
+  "description": "example basic",
+  "main": "webpack.config.js",
+  "scripts": {
+    "compile": "webpack --watch --progress",
+    "serve": "http-server"
+  },
+  "author": "ReneAcosta",
+  "license": "ISC",
+  "devDependencies": {
+    "gl-matrix": "^2.8.1",
+    "http-server": "^0.11.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
